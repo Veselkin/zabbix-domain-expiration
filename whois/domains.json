@@ -1,0 +1,6 @@
+{
+  "data": [
+    { "{#DOMAIN}": "example.com" },
+    { "{#DOMAIN}": "example.net" }
+  ]
+}
