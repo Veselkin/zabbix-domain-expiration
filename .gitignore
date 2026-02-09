@@ -1,0 +1,24 @@
+# Игнорировать кэш и временные файлы WHOIS (чтобы не забить репозиторий старыми данными)
+*.whois
+*.tmp
+*.cache
+whois_data/
+
+# Логи работы скриптов
+*.log
+discovery_debug.txt
+
+# Секреты и кастомные конфиги (если есть API-ключи для WHOIS-сервисов)
+.env
+config.yml
+secrets/
+
+# Python (если скрипт LLD написан на нем)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Системные файлы
+.DS_Store
